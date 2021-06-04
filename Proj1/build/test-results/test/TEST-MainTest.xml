@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MainTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-05-17T18:09:46" hostname="STARFORGE" time="2.4">
+  <properties/>
+  <testcase name="testMain" classname="MainTest" time="0.001"/>
+  <testcase name="testTestGetName" classname="MainTest" time="2.398"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+-------------------------------------------------------------------
+
+-------------------------------------------------------------------
+Missing dependency 'Slf4j simple'. Add the dependency.
+
+pom.xml:
+<dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>slf4j-simple</artifactId>
+    <version>1.7.30</version>
+</dependency>
+
+build.gradle:
+compile "org.slf4j:slf4j-simple:1.7.30"
+
+Find the latest version here:
+https://search.maven.org/search?q=g%3Aorg.slf4j+AND+a%3Aslf4j-simple
+-------------------------------------------------------------------
+-------------------------------------------------------------------
+OR
+-------------------------------------------------------------------
+
+-------------------------------------------------------------------
+Missing dependency 'Slf4j simple with Provider'. Add the dependency.
+
+pom.xml:
+<dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>slf4j-api</artifactId>
+    <version>1.8.0-beta4</version>
+</dependency>
+
+build.gradle:
+compile "org.slf4j:slf4j-api:1.8.0-beta4"
+
+Find the latest version here:
+https://search.maven.org/search?q=g%3Aorg.slf4j+AND+a%3Aslf4j-api
+------------------------------------------------------------------- and
+
+-------------------------------------------------------------------
+Missing dependency 'Slf4j simple with Provider'. Add the dependency.
+
+pom.xml:
+<dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>slf4j-simple</artifactId>
+    <version>1.8.0-beta4</version>
+</dependency>
+
+build.gradle:
+compile "org.slf4j:slf4j-simple:1.8.0-beta4"
+
+Find the latest version here:
+https://search.maven.org/search?q=g%3Aorg.slf4j+AND+a%3Aslf4j-simple
+-------------------------------------------------------------------
+-------------------------------------------------------------------
+Visit https://javalin.io/documentation#logging if you need more help
+]]></system-err>
+</testsuite>
